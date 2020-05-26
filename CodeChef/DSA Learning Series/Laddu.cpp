@@ -19,17 +19,17 @@ int main()
               int am;
               cin >> ss;
               if(ss == "CONTEST_WON") 
-              {				 cin >> am;
-                       ld += 300 + max(0, 20-am);
-			        }
-			        else if(ss == "TOP_CONTRIBUTOR") 
+              {	    cin >> am;
+                    ld += 300 + max(0, 20-am);
+	      }
+	      else if(ss == "TOP_CONTRIBUTOR") 
                   ld += 300;
-			        else if(ss == "BUG_FOUND") 
+	      else if(ss == "BUG_FOUND") 
               {
                     cin >> am;
                     ld += am;
               }
-			        else if(ss == "CONTEST_HOSTED") 
+	      else if(ss == "CONTEST_HOSTED") 
                   ld += 50;
           }
      if(area=="INDIAN")
@@ -37,5 +37,5 @@ int main()
      else
        cout<<ld/400<<"\n";
    }
-	 return 0;
+	return 0;
 }
