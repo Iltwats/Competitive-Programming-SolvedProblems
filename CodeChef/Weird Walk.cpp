@@ -3,8 +3,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long int
-int wierdwalk(ll a[], ll b[], ll n);
-
 int main()
 {
     int tc;
@@ -25,22 +23,17 @@ int main()
             cin >> b[i];
         }
         
-        cout<<wierdwalk(a,b,count)<<'\n';
-
-         }
-}
-int wierdwalk(ll a[],ll b[], ll n)
-{
-    ll sum=0,sum1=0,sum2=0;
-    for (int i = 0; i < n; i++)
-    {   
-        sum1+=a[i];
-        sum2+=b[i];
-        if ((a[i] == b[i])&&(sum1==sum2))
-        {
-            sum += b[i];
+        ll sum=0,sum1=0,sum2=0;
+        for (int i = 0; i < count; i++)
+         { 
+             sum1+=a[i];
+             sum2+=b[i];
+             if ((a[i] == b[i])&&(sum1==sum2))
+             {
+                 sum += b[i];
+                 }
         }
+    cout<<sum<<'\n';
     }
-
-    return sum;
+    return 0;
 }
