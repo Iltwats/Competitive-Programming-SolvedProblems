@@ -1,4 +1,4 @@
-// FOr probelm statement and its details visit: https://codeforces.com/contest/1364/problem/A
+// For probelm statement and its details visit: https://codeforces.com/contest/1364/problem/A
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -8,11 +8,11 @@ int main()
     while (t--)
     {
         int n,x,sum=0,l=-1,r;
-        scanf("%d%d",&n,&x);
+        cin>>n>>x;
         for (int i=0;i<n;i++)
         {
             int a;
-            scanf("%d",&a);
+            cin>>a;
             if (a%x)
             {
                 if (l==-1)
