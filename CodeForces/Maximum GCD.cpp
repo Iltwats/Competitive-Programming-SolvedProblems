@@ -1,4 +1,5 @@
 //For problem statement and its details visit: https://codeforces.com/contest/1370/problem/A
+// Solution:Answer for any n≥2 is equal to |n/2|
 
 #include < bits/stdc++.h >
 using namespace std;
