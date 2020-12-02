@@ -1,5 +1,9 @@
 # Competitive-Programming
 
+### Important CP Tips
+- [Code-Conventions](https://codeforces.com/blog/entry/64218)
+- [C++ Tricks](https://codeforces.com/blog/entry/15643)
+
 Different Problems Solved from websites such as:<br>
 
 - [HackerRank](https://www.hackerrank.com/domains/algorithms),
