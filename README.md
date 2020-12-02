@@ -1,6 +1,7 @@
 # Competitive-Programming
 
 ### Important CP Tips
+- [Why do CP](https://github.com/Iltwats/Competitive-Programming-SolvedProblems/blob/master/Why_Do_CompetitiveProgramming.md)
 - [Code-Conventions](https://codeforces.com/blog/entry/64218)
 - [C++ Tricks](https://codeforces.com/blog/entry/15643)
 
